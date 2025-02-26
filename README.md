@@ -24,6 +24,8 @@ Emergency Analyzer is a FastAPI-based machine learning service that transcribes 
    ```sh
    python setup_models.py  # (Optional script to automate model downloads)
    ```
+4. Download the model.pt file from this Google Drive folder, then add it in your project in a folder named saved_model: 
+https://drive.google.com/file/d/1pi3stdcZA3psCVKTaQLD-JWCVDaIs4ar/view?usp=sharing  
 
 ## Usage
 
