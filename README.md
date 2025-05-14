@@ -92,7 +92,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GNU Affero General Public License v3.0 License.
 
 ## Contributors
 
