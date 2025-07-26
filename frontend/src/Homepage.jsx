@@ -60,7 +60,7 @@ function Homepage() {
       <header className="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-red-700 to-red-900 text-white shadow-lg">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-extrabold tracking-wide uppercase">
-            Vigili del Fuoco <span className="text-yellow-400">Matera</span>
+            Vigili del Fuoco <span className="text-yellow-400"></span>
           </h1>
           <nav className="flex gap-8 text-lg font-semibold">
             <a href="#servizi" className="hover:text-yellow-400 transition">Servizi</a>
@@ -78,7 +78,7 @@ function Homepage() {
         {/* BACKGROUND IMMERSIVO */}
         <motion.img
           src={bgImage}
-          alt="Vigili del Fuoco Matera"
+          alt="Vigili del Fuoco"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ y: bgY, scale: bgScale }}
         />
@@ -133,7 +133,7 @@ function Homepage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            Vigili del Fuoco Matera: sicurezza, prevenzione e intervento rapido.
+            Vigili del Fuoco: sicurezza, prevenzione e intervento rapido.
           </motion.p>
 
           <motion.a
@@ -213,7 +213,7 @@ function Homepage() {
       {/* FOOTER */}
       <footer id="contatti" className="bg-gray-900 text-gray-200 py-12 mt-16">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-lg mb-6">© 2025 Vigili del Fuoco Matera - Tutti i diritti riservati</p>
+          <p className="text-lg mb-6">© 2025 Eustachio Fontana - Tutti i diritti riservati</p>
           <div className="flex justify-center gap-8 text-xl">
             <a href="#" className="hover:text-red-500 transition">Facebook</a>
             <a href="#" className="hover:text-red-500 transition">Twitter</a>

@@ -233,7 +233,7 @@ function Analyzer() {
       {/* FOOTER */}
       <footer id="contatti" className="bg-gray-900 text-gray-200 py-12 mt-16">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-lg mb-6">© 2025 Vigili del Fuoco Matera - Tutti i diritti riservati</p>
+          <p className="text-lg mb-6">© 2025 Eustachio Fontana - Tutti i diritti riservati</p>
         </div>
       </footer>
     </div>
