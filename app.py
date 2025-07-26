@@ -9,6 +9,16 @@ import gc
 
 app = FastAPI()
 
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Puoi restringerlo a ["http://localhost:5173"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 class InputText(BaseModel):
     testo: str
 
